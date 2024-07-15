@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dark {
+    --bg-color: #1a202c;
+    --text-color: #c7cbcf;
+  }
+  .light {
+    --bg-color: #ffffff;
+    --text-color: #1a202c;
+  }
+
+  .active{
+    color: red;
+    background-color: var(--bg-color);
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
